@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textNrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="NRP"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textNama"
+        app:layout_constraintTop_toBottomOf="@+id/textNama" />
+
+    <TextView
+        android:id="@+id/textJk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Jenis Kelamin"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textNrp"
+        app:layout_constraintTop_toBottomOf="@+id/textNrp" />
+
+    <TextView
+        android:id="@+id/titikDuaJk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text=":"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textJk"
+        app:layout_constraintStart_toEndOf="@+id/textJk"
+        app:layout_constraintTop_toTopOf="@+id/textJk"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/titikDuaJk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textIpk"
+        app:layout_constraintStart_toStartOf="@+id/titikDuaJk"
+        app:layout_constraintTop_toTopOf="@+id/textIpk" />
+
+    <TextView
+        android:id="@+id/titikDuaJk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textNrp"
+        app:layout_constraintStart_toStartOf="@+id/titikDuaJk"
+        app:layout_constraintTop_toTopOf="@+id/textNrp" />
+
+    <TextView
+        android:id="@+id/titikDuaJk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textNama"
+        app:layout_constraintStart_toStartOf="@+id/titikDuaJk2"
+        app:layout_constraintTop_toTopOf="@+id/textNama" />
+
+    <TextView
+        android:id="@+id/textIpk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="IPK"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textJk"
+        app:layout_constraintTop_toBottomOf="@+id/textJk" />
+
+    <TextView
+        android:id="@+id/tampilNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Nama akan muncul disini"
+        app:layout_constraintBottom_toBottomOf="@+id/titikDuaJk3"
+        app:layout_constraintStart_toEndOf="@+id/titikDuaJk3"
+        app:layout_constraintTop_toTopOf="@+id/titikDuaJk3" />
+
+    <TextView
+        android:id="@+id/tampilNrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NRP akan muncul disini"
+        app:layout_constraintBottom_toBottomOf="@+id/titikDuaJk2"
+        app:layout_constraintStart_toStartOf="@+id/tampilNama"
+        app:layout_constraintTop_toTopOf="@+id/titikDuaJk2" />
+
+    <TextView
+        android:id="@+id/tampilJk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin akan muncul disini"
+        app:layout_constraintBottom_toBottomOf="@+id/titikDuaJk"
+        app:layout_constraintStart_toStartOf="@+id/tampilNrp"
+        app:layout_constraintTop_toTopOf="@+id/titikDuaJk" />
+
+    <TextView
+        android:id="@+id/tampilIpk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPK akan muncul disini"
+        app:layout_constraintBottom_toBottomOf="@+id/titikDuaJk4"
+        app:layout_constraintStart_toStartOf="@+id/tampilJk"
+        app:layout_constraintTop_toTopOf="@+id/titikDuaJk4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
