@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "333723827089",
+    "firebase_url": "https://tekber-data-mhs-default-rtdb.firebaseio.com",
+    "project_id": "tekber-data-mhs",
+    "storage_bucket": "tekber-data-mhs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333723827089:android:eefffea0fda41be896f830",
+        "android_client_info": {
+          "package_name": "com.example.tekber.week6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333723827089-q54tn55vm6aark2i4aqpoa0bu7fkqdr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASuMwcZVV7AbH5fNZNuXsZLDJw2gtrDG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333723827089-q54tn55vm6aark2i4aqpoa0bu7fkqdr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -36,8 +36,6 @@ public class MahasiswaAdapter extends RecyclerView.Adapter <MahasiswaAdapter.Vie
     public void onBindViewHolder(@NonNull ViewHolder holder, int position)
     {
         Mahasiswa mhs = alMhs.get(position);
-        //TextView tvMahasiswa = holder.txtMahasiswa;
-        //tvMahasiswa.setText(String.valueOf(mhs));
 
         holder.tampilNama.setText(mhs.getNama());
         holder.tampilNrp.setText(mhs.getNrp());
@@ -53,14 +51,12 @@ public class MahasiswaAdapter extends RecyclerView.Adapter <MahasiswaAdapter.Vie
 
     public class ViewHolder extends RecyclerView.ViewHolder
     {
-        // public TextView txtMahasiswa;
         TextView tampilNama, tampilNrp, tampilJk, tampilIpk;
 
         public ViewHolder(@NonNull View itemView)
         {
             super(itemView);
 
-            //txtMahasiswa = (TextView) itemView.findViewById(R.id.txtMahasiswa);
             tampilNama = itemView.findViewById(R.id.tampilNama);
             tampilNrp = itemView.findViewById(R.id.tampilNrp);
             tampilJk = itemView.findViewById(R.id.tampilJk);
